@@ -1,0 +1,71 @@
+@import "../../vars.css";
+
+.contactFooter {
+  
+    color: var(--color-text);
+    margin-top: 120px;
+    background-color: var(--color-secondary);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 58px 10%;
+    gap: 10px;
+
+  }
+  
+  .contactInfo {
+    margin-bottom: 20px;
+
+  }
+  
+  .contactTitle {
+    font-size:80px ;
+    font-weight: 700;
+    letter-spacing: 4px;
+  }
+  
+  .contactText {
+   font-size: 40px;
+   font-weight: 400;
+   letter-spacing: 2px;
+  }
+  
+  .contactList {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    list-style-type: none;
+    gap: 26px;
+    margin-left: 20px;
+  }
+  
+  .contactItem {
+    display: flex;
+   align-items: center;
+   gap: 25px;
+  }
+  
+  .contactIcon {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+  
+  .contactLink {
+   color: var(--color-text);
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+
+  }
+  
+@media screen and (max-width :830px){
+    .contactFooter{
+        flex-direction: column;
+        gap: 23px;
+    }
+   
+}
+  

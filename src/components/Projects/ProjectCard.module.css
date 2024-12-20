@@ -1,0 +1,80 @@
+@import "../../vars.css";
+
+
+.projectCard {
+    border-radius: 10px;
+    padding: 18px 24px;
+    background:linear-gradient(180deg,#576cbc 0%,#132a53 100%);
+    box-shadow: 0 16px 14px 0 #04152d;
+    max-width: 345px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+  }
+  
+  .projectImage {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 26px;
+  }
+  
+  .projectTitle {
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 10px;
+    color: white;
+  }
+  
+  .projectDescription {
+    font-size: 25px;
+    font-weight: 400;
+    margin-top: 6px;
+    color: white;
+  }
+  
+  .projectSkills {
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    margin-top: 14px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 6px;
+
+  }
+  
+  .skillItem {
+    font-size: 25px;
+    font-weight: 400px;
+    border-radius: 100px;
+    background: var(--color-dark);
+   padding: 2px 22px;
+  }
+  
+  .projectLinks {
+    width: 100%;
+    margin-top: 26px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .demoLink,
+  .sourceLink {
+    font-size: 30px;
+    font-weight: 600;
+    border-radius: 100px;
+    margin-right: 10px;
+    color: var(--color-text);
+    text-decoration: none;
+    background:var(--color-primary);
+    padding: 1px 22px;
+  }
+  
+  .demoLink:hover,
+  .sourceLink:hover {
+    text-decoration: underline;
+  }
+  

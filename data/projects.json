@@ -1,0 +1,38 @@
+[
+    {
+        "title": "Nxt Trendz (ECommerce Clone - Amazon, Flipkart)",
+        "imagesrc": "https://images.wallpaperscraft.com/image/single/code_programming_text_141192_1920x1080.jpg",
+        "description": "Developed an innovative e-commerce platform inspired by Amazon and Flipkart. Created login pages, product details, and product listing pages using React Router, components, and form inputs. Integrated secure authentication with JWT tokens and used REST API calls for dynamic content rendering. Built with a focus on security and user interaction.",
+        "demo": "https://venkat006.ccbp.tech",
+        "source": "https://github.com/VenkateshRathod7/Nxt---Trands",
+        "skills": [
+            "React JS",
+            "JWT Token",
+            "REST API Calls"
+        ]
+    },
+    {
+        "title": "Nxt Watch",
+        "imagesrc": "https://images.wallpaperscraft.com/image/single/code_programming_text_141192_1920x1080.jpg",
+        "description": "Created Nxt Watch, a YouTube alternative with features like login, trending videos, and category browsing. Integrated secure login and JWT token handling for session persistence. Developed components with React for dynamic content rendering, including personalized themes and saved videos. Utilized React Router for protected routes and state management.",
+        "demo": "https://nxtTube6.ccbp.tech",
+        "source": "https://github.com/VenkateshRathod7/nxtTube6",
+        "skills": [
+            "React JS",
+            "JWT Token",
+            "React Router"
+        ]
+    },
+    {
+        "title": "Todos Application",
+        "imagesrc": "https://images.wallpaperscraft.com/image/single/code_programming_text_141192_1920x1080.jpg",
+        "description": "Developed a persistent to-do application featuring CRUD operations for task management. Implemented localStorage for data persistence across sessions. Focused on seamless user interaction through dynamic DOM updates. Added functionality for task creation, editing, and deletion with an intuitive interface for managing daily tasks.",
+        "demo": "https://mytodo6.ccbp.tech",
+        "source": "https://github.com/VenkateshRathod7/mytodo6",
+        "skills": [
+            "JavaScript",
+            "CRUD Operations",
+            "Local Storage"
+        ]
+    }
+]
